@@ -1,7 +1,7 @@
 <uwsgi>
     <pythonpath>/home/pi/PiCameraService</pythonpath>
     <module>index</module>
-    <callbale>app</callbale>
+    <callable>app</callable>
     <socket>127.0.0.1:8000</socket>
     <master/>
     <processes>4</processes>
